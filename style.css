@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background: black;
+    background-image: url(https://images.unsplash.com/photo-1689352289237-cea3b7d914cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    opacity: 0.3;
+    font-size: 2.5rem;
+}
+
+.countdown-container {
+    color: whitesmoke;
+    width: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(91, 188, 117, 0.5);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.025);
+    display: flex;
+}
+
+.big-text {
+    font-weight: bold;
+    line-height: 1;
+    font-size: 4rem;
+    margin: 0 2rem;
+}
+
+.Count-down-el {
+    text-align: center;
+}
+
+.Count-down-el span {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.countdown-container2 {
+    margin-top: 40px;
+    color: rgb(225, 217, 217);
+    width: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(177, 37, 227, 0.5);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.025);
+    display: flex;
+}
+
+.big-text2 {
+    font-weight: bold;
+    line-height: 1;
+    font-size: 4rem;
+    margin: 0 2rem;
+}
+.Count-down-el2 {
+    text-align: center;
+}
+
+.Count-down-el2 span {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
